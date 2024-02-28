@@ -1,0 +1,12 @@
+import react from "react";
+
+const HomeLayout=(props)=>{
+    return(
+        <>
+        
+            {props.children}
+        </>
+    )
+};
+
+export default HomeLayout;
