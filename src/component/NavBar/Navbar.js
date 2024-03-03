@@ -36,8 +36,8 @@ const NavBar=()=>{
 
            <div className="p-4 flex justify-between items-center gap-10">
                     {["RISE", "ABOUT US", "OUR BUSINESSES", "INVESTOR RELATIONS", "NEWSROOM", "CAREERS"].map((item, index) => (
-                        <li key={index} className="text-white text-sm flex list-none gap-1 items-center relative hover:text-red-700" onMouseEnter={() => handleHover(index)} onMouseLeave={() => handleHover(index)}>
-                            {item} {hoveredItems[index] ? <FaChevronUp className="text-red-700 w-4 h-4 transition-transform duration-300 transform" /> : <FaChevronDown className="text-white w-4 h-4 transition-transform duration-300 transform rotate-0" />}
+                        <li key={index} className="text-white text-sm flex list-none gap-1 items-center relative cursor-pointer hover:text-red-700" onMouseEnter={() => handleHover(index)} onMouseLeave={() => handleHover(index)}>
+                            {item} {hoveredItems[index] ? <FaChevronUp className="text-red-700 w-4 h-4 cursor-pointer transition-transform duration-300 transform" /> : <FaChevronDown className="text-white w-4 h-4 transition-transform duration-300 transform rotate-0 cursor-pointer" />}
                             {hoveredItems[index] && (
                                 <HoverDiv options={index === 0 ? rise : index === 1 ? aboutUs : index === 2 ? ourBusiness : index === 3 ? investorRelations : index === 4 ? newsRoom : careers} />
                             )}

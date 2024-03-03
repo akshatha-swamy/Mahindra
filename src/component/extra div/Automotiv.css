@@ -1,0 +1,51 @@
+@keyframes fade-in-h1 {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-in-h2 {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-in-line {
+    0% {
+      opacity: 0;
+      transform: translatex(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translatex(0);
+    }
+  }
+  
+
+.automotive{
+    font-family:"Anta" ;
+    animation: fade-in-h1 2s ease backwards;
+    animation-delay:1s
+    
+}
+
+.subtitle{
+    font-family:'atma';
+    animation: fade-in-h2 2s ease backwards;
+    animation-delay: 2s;
+}
+
+.line{
+    height: 1px;
+    animation:fade-in-line 2s ease backwards;
+    animation-delay: 3s;
+}

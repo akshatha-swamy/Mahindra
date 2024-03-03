@@ -8,7 +8,11 @@ module.exports = {
           100:"#070F2B",//background
 
         }
-      }
+      },
+
+    fontFamily:{
+      'exotwo': ['Exo 2', 'sans-serif']
+    }
     },
   },
   plugins:[],
