@@ -6,8 +6,10 @@ The Mahindra Automotive Home Page is a frontend project designed to provide an i
 ## Table of Contents
 
 - [Features](#features)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
+
 
 
 ## Features
@@ -16,6 +18,11 @@ The Mahindra Automotive Home Page is a frontend project designed to provide an i
 - Animations on scroll
 - Showcase of Mahindra automotive products
 - Engaging user experience
+
+
+## Demo
+
+Click here to view my website "https://gilded-valkyrie-e1b67f.netlify.app/"
 
 
 
