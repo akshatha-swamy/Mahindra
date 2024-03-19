@@ -1,18 +1,14 @@
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translatx(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translatez(0);
-  }
+/* ImageContainer.css */
+.dontShow{
+  opacity: 0;
+  transform: translateY(50px); /* Move the image 50px down initially */
+  transition: opacity 2s ease, transform 0.5s ease;
 }
 
 .show {
-  animation: fadeInUp 4s ease backwards;
-  
-  
+  opacity: 1;
+  transform: translateY(0);
+   /* Move the image to its original position */
 }
 
 .image-container:hover .image {

@@ -1,7 +1,6 @@
 import React,{useEffect} from "react";
 import NavBar from "../component/NavBar/Navbar";
 import AutomotiveDiv from "../component/extra div/AutomotiveDiv";
-import { Link } from "react-router-dom";
 import { imageObject } from "../component/functions/Funtions";
 
 
@@ -80,10 +79,12 @@ const HomePage=()=>{
                 <div className="flex justify-center items-center m-9 gap-9">
                    
                         <div className="image-container dontShow image1 w-80 h-56  mx-4 rounded-md relative overflow-hidden cursor-pointer ">
-                            <img src={homepage["SUV"]} alt="scorpio" className=" image w-full h-full rounded-md transition-transform duration-300 transform  "/>
-                            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80 rounded-md"></div>
-                            <button className="absolute bottom-4 left-4 text-white font-bold " >SUV</button>
+                                    <img src={homepage["SUV"]} alt="scorpio" className=" image w-full h-full rounded-md transition-transform duration-300 transform  "/>
+                                    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80 rounded-md"></div>
+                                    <button className="absolute bottom-4 left-4 text-white font-bold " >SUV</button>
                         </div>
+                   
+                        
                         <div className="image-container dontShow image2 w-80 h-56 mx-4 rounded-md relative cursor-pointer overflow-hidden">
                             <img src={homepage["Electric Car"]} alt="electric car" className="image w-full h-full rounded-md transition-transform duration-300 transform"/>
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80 rounded-md"></div>
@@ -96,8 +97,8 @@ const HomePage=()=>{
                         </div> 
                         
                     </div>
-                    <div className=" flex justify-center dontShow image4 rounded-md my-6 cursor-pointer ">
-                        <div className=" image-container w-5/6  h-96 mx-9 rounded-md relative overflow-hidden">
+                    <div className=" flex justify-center  image4 rounded-md my-6 cursor-pointer ">
+                        <div className=" image-container dontShow w-5/6  h-96 mx-9 rounded-md relative overflow-hidden">
                         <img src={homepage["jawa"]} alt="jawa" className="image w-full h-full rounded-md transition-transform duration-300 transform"/>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-75 rounded-md"></div>
                             
